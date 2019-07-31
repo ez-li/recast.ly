@@ -21,7 +21,7 @@ var searchYouTube = (options, callback) => {
     // contentType: 'application/json',
     success: function(data) { callback(data); },
     error: function(error) { console.log('failed to search youtube', error); }
-  })
+  });
 };
 
 export default searchYouTube;

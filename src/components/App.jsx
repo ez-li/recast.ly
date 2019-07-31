@@ -25,7 +25,7 @@ class App extends React.Component {
       currentVideoInPlayer: exampleVideoData[0], // this will be updated on click
       inputText: '',
       submit: false
-    }
+    };
   }
 
   onClick(props) {

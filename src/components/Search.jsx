@@ -3,7 +3,7 @@ var Search = (props) => (
     <input className="form-control" type="text" onChange={props.cbChange}/>
     {/* <form onSubmit={props.cbSubmit}> */}
     <button className="btn hidden-sm-down" onClick={props.cbSubmit}>
-    {/* </form> */}
+      {/* </form> */}
       <span className="glyphicon glyphicon-search"></span>
     </button>
   </div>
