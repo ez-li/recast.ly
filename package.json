@@ -7,9 +7,10 @@
   "private": true,
   "scripts": {
     "test": "live-server --open=./SpecRunner.html --port=8081",
+    "open": "live-server --open=./index.html --port=8081",
     "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash",
     "watch": "babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline --watch",
-    "live-watch": "concurrently \"npm run test\" \"npm run watch\""
+    "live-watch": "concurrently \"npm run open\" \"npm run watch\""
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.2",
